@@ -38,9 +38,6 @@ const App = () => {
       alert("Invalid Credentials")
     }
   }
-
-
-
   return (
     <>
       {!user ? <Login handleLogin={handleLogin} /> : ''}
