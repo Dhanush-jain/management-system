@@ -25,12 +25,9 @@ const AllTask = () => {
             <h5 className='text-lg font-medium w-1/5 text-red-600'>{elem.taskCounts.failed}</h5>
         </div>
         })}
-        </div>
-        
-        
+        </div>        
     </div>
   )
 }
 
 export default AllTask
-
